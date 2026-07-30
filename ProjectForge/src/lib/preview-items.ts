@@ -1,0 +1,15 @@
+export const livePreviewItems = [
+  { key: "name", label: "Project Name", source: (p: any) => p.name },
+  { key: "frontend", label: "Frontend", source: (p: any) => p.frontend },
+  { key: "backend", label: "Backend", source: (p: any) => p.backend },
+  { key: "database", label: "Database", source: (p: any) => p.database },
+  { key: "theme", label: "Theme", source: (p: any) => p.theme },
+  { key: "auth", label: "Authentication", source: (p: any) => p.auth },
+  { key: "deployment", label: "Deployment", source: (p: any) => p.deployment },
+  { key: "styling", label: "Styling", source: (p: any) => p.styling },
+  { key: "designStyle", label: "Design Style", source: (p: any) => p.designStyle },
+  { key: "primaryColor", label: "Primary Color", source: (p: any) => p.primaryColor },
+  { key: "projectType", label: "Project Type", source: (p: any) => p.projectType },
+  { key: "platform", label: "Platform", source: (p: any) => p.platform },
+  { key: "stateManagement", label: "State Management", source: (p: any) => p.stateManagement },
+] as const;
